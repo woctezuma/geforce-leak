@@ -24,7 +24,7 @@ Alternatively, you can find the data in the ["Releases" section][github-releases
 ## References
 
 - A [Medium post by the original leaker][medium-post] revealing the method,
-- A [tweet by the original leaker], which advertises the blog post above,
+- A [tweet by the original leaker][tweet-leaker], which advertises the blog post above,
 - A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
 
 <!-- Definitions -->
