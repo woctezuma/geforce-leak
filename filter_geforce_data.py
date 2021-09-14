@@ -1,5 +1,6 @@
 from src.disk_utils import load_from_disk
 from src.duplicate_utils import deduplicate_data, merge_data
+from src.filter_utils import filter_out_by_store
 from src.filter_utils import get_rival_stores, filter_in_by_store, filter_out_by_title
 from src.parse_utils import parse_data
 from src.print_utils import print_results
@@ -21,7 +22,13 @@ def run_workflow(
     else:
         exclusion_list = [excluded_store_name]
 
-    apps = filter_in_by_store(data, target_store_name=target_store_name)
+    if len(target_store_name) == 0:
+        # If the target name is empty, then we opt for filtering *out* instead of filtering *in* stores.
+        apps = data
+        for s in exclusion_list:
+            apps = filter_out_by_store(apps, excluded_store_name=s)
+    else:
+        apps = filter_in_by_store(data, target_store_name=target_store_name)
 
     for s in exclusion_list:
         apps = filter_out_by_title(apps, excluded_store_name=s)
