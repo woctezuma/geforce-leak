@@ -43,6 +43,8 @@ def parse_title(app, target_store_name="Epic Games Store", trim_output=True):
         target_store_suffixe = get_store_suffixe(target_store_name)
         title = title.replace(target_store_suffixe, "")
 
+    title = title.strip()
+
     return title
 
 
