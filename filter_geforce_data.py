@@ -1,4 +1,5 @@
 from src.disk_utils import load_from_disk
+from src.filter_utils import deduplicate_data
 from src.filter_utils import get_rival_stores, filter_in_by_store, filter_out_by_title
 from src.parse_utils import parse_data
 from src.print_utils import print_results
@@ -23,6 +24,8 @@ def run_workflow(
         sort_output=sort_output,
         verbose=verbose,
     )
+
+    apps = deduplicate_data(apps, sort_output=sort_output)
 
     print_results(apps)
 
