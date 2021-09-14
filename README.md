@@ -26,6 +26,12 @@ python download_geforce_data.py
 
 Alternatively, you can find the data in the ["Releases" section][github-releases] of this repository.
 
+- Run the following script to filter GeForce data by stores, e.g. "Epic Games Store" or "Steam":
+
+```bash
+python filter_geforce_data.py
+```
+
 ## References
 
 - A [Medium post by the original leaker][medium-post] revealing the method,
