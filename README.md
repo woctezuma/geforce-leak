@@ -57,7 +57,7 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 [epic-store]: <https://www.epicgames.com/store/>
 [steam-store]: <https://store.steampowered.com/>
 
-[gist-epic]: <https://gist.github.com/woctezuma/2b9a3f6c42712e391a0595ee43130f4d>
+[gist-epic]: <https://gist.github.com/woctezuma/64949a67eedfc96a063d3510d7b8d0bb>
 [gist-steam-1]: <https://gist.github.com/woctezuma/bd75692055c5d341d9989b9ec5396421>
 [gist-steam-2]: <https://gist.github.com/woctezuma/bfc211c0ce8c032ebf27fe9c05474f53>
 
