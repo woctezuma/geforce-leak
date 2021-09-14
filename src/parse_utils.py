@@ -40,7 +40,7 @@ def parse_data(
 def parse_title(app, target_store_name="Epic Games Store", trim_output=True):
     title = app["title"]
 
-    if trim_output:
+    if trim_output and len(target_store_name) > 0:
         target_store_suffixe = get_store_suffixe(target_store_name)
         title = title.replace(target_store_suffixe, "")
 
