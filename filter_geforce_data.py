@@ -64,6 +64,8 @@ def main():
         data, target_store_name=rival_stores[1], excluded_store_name=rival_stores[0]
     )
 
+    run_workflow(data, target_store_name="", excluded_store_name=rival_stores)
+
     return
 
 
