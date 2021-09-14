@@ -15,8 +15,17 @@ def run_workflow(
 ):
     print(f"\nResults with {target_store_name} and without {excluded_store_name}\n")
 
+    # Reference: https://stackoverflow.com/a/152596/
+    if isinstance(excluded_store_name, list):
+        exclusion_list = excluded_store_name
+    else:
+        exclusion_list = [excluded_store_name]
+
     apps = filter_in_by_store(data, target_store_name=target_store_name)
-    apps = filter_out_by_title(apps, excluded_store_name=excluded_store_name)
+
+    for s in exclusion_list:
+        apps = filter_out_by_title(apps, excluded_store_name=s)
+
     apps = parse_data(
         apps,
         target_store_name,
