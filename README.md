@@ -40,6 +40,9 @@ Here is a list of games which have an id on [the Epic Games Store][epic-store]:
 Here is a list of games which have an id on [the Steam Store][steam-store]:
 - [the whole list][gist-steam-1], except for two entries which contain private information (email address, URL)
 
+Here is a list of games which do *not* have any id on the aforementioned stores:
+- [the whole list][gist-no-id]
+
 NB: if an id is empty in the results linked above, then it appeared in the leak as "TBD" for "To Be Decided".
 
 ## References
@@ -58,6 +61,7 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 
 [gist-epic]: <https://gist.github.com/woctezuma/64949a67eedfc96a063d3510d7b8d0bb>
 [gist-steam-1]: <https://gist.github.com/woctezuma/bd75692055c5d341d9989b9ec5396421>
+[gist-no-id]: <https://gist.github.com/woctezuma/2eac226652aaf86a482a62c6f54f41ed>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
