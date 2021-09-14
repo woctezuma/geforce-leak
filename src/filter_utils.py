@@ -40,3 +40,8 @@ def filter_out_by_title(data, excluded_store_name="Steam"):
             apps.append(app)
 
     return apps
+
+
+def sort_data(data):
+    data.sort(key=lambda x: (x["name"], x["id"], x["date"]))
+    return data

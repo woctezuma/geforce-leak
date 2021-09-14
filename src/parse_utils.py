@@ -1,4 +1,4 @@
-from src.filter_utils import get_store_suffixe, get_store_id
+from src.filter_utils import get_store_suffixe, get_store_id, sort_data
 
 
 def parse_data(
@@ -31,7 +31,7 @@ def parse_data(
         apps.append(slim_app)
 
     if sort_output:
-        apps.sort(key=lambda x: x["name"])
+        apps = sort_data(apps)
 
     return apps
 
