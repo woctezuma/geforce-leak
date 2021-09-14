@@ -32,6 +32,17 @@ Alternatively, you can find the data in the ["Releases" section][github-releases
 python filter_geforce_data.py
 ```
 
+## Results
+
+Here is a list of games which have an id on [the Epic Games Store][epic-store]:
+- [the whole list][gist-epic]
+
+Here is a list of games which have an id on [the Steam Store][steam-store], split in two to allow online visualization:
+- [the first part][gist-steam-1]
+- [the second part][gist-steam-2]
+
+NB: if an id is empty in the results linked above, then it appeared in the leak as "TBD" for "To Be Decided".
+
 ## References
 
 - A [Medium post by the original leaker][medium-post] revealing the method,
@@ -42,6 +53,13 @@ python filter_geforce_data.py
 
 [github-releases]: <https://github.com/woctezuma/geforce-leak/releases>
 [github-issues]: <https://github.com/woctezuma/geforce-leak/issues>
+
+[epic-store]: <https://www.epicgames.com/store/>
+[steam-store]: <https://store.steampowered.com/>
+
+[gist-epic]: <https://gist.github.com/woctezuma/2b9a3f6c42712e391a0595ee43130f4d>
+[gist-steam-1]: <https://gist.github.com/woctezuma/bd75692055c5d341d9989b9ec5396421>
+[gist-steam-2]: <https://gist.github.com/woctezuma/bfc211c0ce8c032ebf27fe9c05474f53>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
