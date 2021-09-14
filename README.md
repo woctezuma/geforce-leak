@@ -2,6 +2,11 @@
 
 This repository contains Python code to fetch data from [the GeForce leak][medium-post].
 
+## Disclaimer
+
+- The leak has been plugged, so the code cannot fetch data anymore.
+- If you want me to remove data from this project, please [create a Github issue][github-issues] to reach me.
+
 ## Requirements
 
 -   Install the latest version of [Python 3.X](https://www.python.org/downloads/).
@@ -30,6 +35,7 @@ Alternatively, you can find the data in the ["Releases" section][github-releases
 <!-- Definitions -->
 
 [github-releases]: <https://github.com/woctezuma/geforce-leak/releases>
+[github-issues]: <https://github.com/woctezuma/geforce-leak/issues>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
