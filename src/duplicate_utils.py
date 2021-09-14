@@ -32,9 +32,6 @@ def identify_issues(clusters):
     # An "issue" means here that there are several apps with the same name.
     issues = [name for name in clusters if len(clusters[name]) > 1]
 
-    # Arbitrary sort, in order to easily focus on the largest cluster in debug mode
-    issues.sort(key=lambda x: len(clusters[x]), reverse=True)
-
     return issues
 
 
