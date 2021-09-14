@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the following script to download GeForce data:
+- Run the following script to download GeForce data:
 
 ```bash
 python download_geforce_data.py
