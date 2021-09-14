@@ -1,5 +1,5 @@
 from src.disk_utils import load_from_disk
-from src.duplicate_utils import deduplicate_data
+from src.duplicate_utils import deduplicate_data, merge_data
 from src.filter_utils import get_rival_stores, filter_in_by_store, filter_out_by_title
 from src.parse_utils import parse_data
 from src.print_utils import print_results
@@ -26,6 +26,9 @@ def run_workflow(
     )
 
     apps = deduplicate_data(apps, sort_output=sort_output)
+
+    # Supersede entries which do not bring new information
+    apps = merge_data(apps, sort_output=sort_output, verbose=False)
 
     print_results(apps)
 
