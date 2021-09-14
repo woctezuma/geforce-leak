@@ -23,6 +23,20 @@ def filter_in_by_store(data, target_store_name="Epic Games Store"):
     return apps
 
 
+def filter_out_by_store(data, excluded_store_name="Steam"):
+    excluded_store_id = get_store_id(excluded_store_name)
+
+    apps = list()
+
+    for app in data:
+        store_names = [s["store"] for s in app["storeIds"]]
+
+        if excluded_store_id not in store_names:
+            apps.append(app)
+
+    return apps
+
+
 def get_store_suffixe(store_name):
     store_suffixe = f" - {store_name}"
     return store_suffixe
