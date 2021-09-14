@@ -1,4 +1,5 @@
-from src.filter_utils import get_store_suffixe, get_store_id, sort_data
+from src.duplicate_utils import sort_data
+from src.filter_utils import get_store_suffixe, get_store_id
 
 
 def parse_data(
