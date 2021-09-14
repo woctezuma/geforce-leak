@@ -24,7 +24,7 @@ def filter_in_by_store(data, target_store_name="Epic Games Store"):
 
 
 def get_store_suffixe(store_name):
-    store_suffixe = f"- {store_name}"
+    store_suffixe = f" - {store_name}"
     return store_suffixe
 
 
