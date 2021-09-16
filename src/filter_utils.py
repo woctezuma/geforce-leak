@@ -42,7 +42,7 @@ def get_store_suffixe(store_name):
     return store_suffixe
 
 
-def filter_out_by_title(data, excluded_store_name="Steam"):
+def filter_out_by_title(data, excluded_store_name="Steam", verbose=False):
     excluded_store_suffixe = get_store_suffixe(excluded_store_name)
 
     apps = list()
@@ -52,5 +52,7 @@ def filter_out_by_title(data, excluded_store_name="Steam"):
 
         if excluded_store_suffixe not in game_name:
             apps.append(app)
+        elif verbose:
+            print(f"Skip {app}")
 
     return apps

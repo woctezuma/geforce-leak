@@ -31,7 +31,7 @@ def run_workflow(
         apps = filter_in_by_store(data, target_store_name=target_store_name)
 
     for s in exclusion_list:
-        apps = filter_out_by_title(apps, excluded_store_name=s)
+        apps = filter_out_by_title(apps, excluded_store_name=s, verbose=False)
 
     apps = parse_data(
         apps,
