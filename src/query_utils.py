@@ -1,7 +1,7 @@
 def get_query(cursor, is_slim_query=True):
     query_prefixe = "{"
 
-    query_header = f'apps(first: 1200, after: "{cursor}")'
+    query_header = get_query_header(cursor)
 
     qery_metadata = """{
         numberReturned
@@ -16,6 +16,11 @@ def get_query(cursor, is_slim_query=True):
     query_suffixe = "} }"
 
     return query_prefixe + query_header + qery_metadata + query_content + query_suffixe
+
+
+def get_query_header(cursor):
+    query_header = f'apps(first: 1200, after: "{cursor}")'
+    return query_header
 
 
 def get_query_content(is_slim_query=True):
