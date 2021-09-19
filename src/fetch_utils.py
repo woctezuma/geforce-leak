@@ -3,7 +3,15 @@ import requests
 from src.query_utils import get_query
 
 
-def get_geforce_url():
+def get_geforce_url(use_original_endpoint=True):
+    if use_original_endpoint:
+        geforce_url = get_geforce_original_url()
+    else:
+        geforce_url = get_geforce_backup_url()
+    return geforce_url
+
+
+def get_geforce_original_url():
     return "https://games.geforce.com/graphql"
 
 
