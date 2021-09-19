@@ -6,7 +6,8 @@ This repository contains Python code to fetch data from [the GeForce leak][mediu
 
 ## Disclaimer
 
-- The leak has been plugged, so the code cannot fetch data anymore.
+- The leak has been plugged, so the code cannot fetch data directly from Nvidia anymore.
+- A partial data back-up is [being hosted][tweet-leaker-hosting-backup] by the leaker, so the code can fetch data from there.
 - If you want me to remove data from this project, please [create a Github issue][github-issues] to reach me.
 
 ## Requirements
