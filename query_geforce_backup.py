@@ -20,17 +20,17 @@ def main():
         data = fetch_all_pages(
             is_slim_query=True, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
         )
-        save_to_disk(data, f"data/backup_slim_{chunk_no}.json", verbose=True)
+        save_to_disk(data, f"data/backup_slim_chunk_{chunk_no}.json", verbose=True)
 
         data = fetch_all_pages(
             is_slim_query=False, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
         )
-        save_to_disk(data, f"data/backup_full_{chunk_no}.json", verbose=True)
+        save_to_disk(data, f"data/backup_full_chunk_{chunk_no}.json", verbose=True)
 
     # Export to disk
     for keyword in ["slim", "full"]:
         data = list()
-        for fname in glob.glob(f"data/backup_{keyword}_*.json"):
+        for fname in glob.glob(f"data/backup_{keyword}_chunk_*.json"):
             data += load_from_disk(fname)
         save_to_disk(data, f"backup_{keyword}.json", verbose=True)
 
