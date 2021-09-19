@@ -18,11 +18,15 @@ def get_query(cursor, is_slim_query=True, use_original_endpoint=True):
     return query_prefixe + query_header + qery_metadata + query_content + query_suffixe
 
 
+def get_header_sep():
+    return ", "
+
+
 def get_query_header(cursor, use_original_endpoint=True):
     if use_original_endpoint:
         vpc_id = ""
     else:
-        vpc_id = 'vpcId: "NP-SEA-01", '
+        vpc_id = 'vpcId: "NP-SEA-01"' + get_header_sep()
 
     query_header = f'apps({vpc_id}first: 1200, after: "{cursor}")'
     return query_header
