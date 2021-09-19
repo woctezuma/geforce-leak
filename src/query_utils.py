@@ -121,3 +121,15 @@ def get_full_query_content():
         """
 
     return query_content
+
+
+def main():
+    for is_slim_query in [False, True]:
+        query_input = get_query("", is_slim_query=is_slim_query)
+        print(query_input)
+
+    return
+
+
+if __name__ == "__main__":
+    main()
