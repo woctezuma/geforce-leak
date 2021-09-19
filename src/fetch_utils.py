@@ -7,6 +7,11 @@ def get_geforce_url():
     return "https://games.geforce.com/graphql"
 
 
+def get_geforce_backup_url():
+    # Reference: https://twitter.com/JulyIghor/status/1438152383461269512
+    return "http://gfn.uax.co/graphql"
+
+
 def fetch_page(cursor="", is_slim_query=True, geforce_url=None):
     if geforce_url is None:
         geforce_url = get_geforce_url()
