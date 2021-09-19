@@ -26,7 +26,11 @@ def fetch_page(cursor="", is_slim_query=True, use_original_endpoint=True):
 
     print(f"Cursor: {cursor}")
 
-    query = get_query(cursor, is_slim_query=is_slim_query)
+    query = get_query(
+        cursor,
+        is_slim_query=is_slim_query,
+        use_original_endpoint=use_original_endpoint,
+    )
 
     r = requests.post(
         url=geforce_url,
