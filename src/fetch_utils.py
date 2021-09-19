@@ -7,11 +7,14 @@ def get_geforce_url():
     return "https://games.geforce.com/graphql"
 
 
-def fetch_page(cursor="", is_slim_query=True):
+def fetch_page(cursor="", is_slim_query=True, geforce_url=None):
+    if geforce_url is None:
+        geforce_url = get_geforce_url()
+
     print(f"Cursor: {cursor}")
 
     r = requests.post(
-        url=get_geforce_url(),
+        url=geforce_url,
         json={"query": get_query(cursor, is_slim_query=is_slim_query)},
     )
     if r.ok:
@@ -25,14 +28,16 @@ def fetch_page(cursor="", is_slim_query=True):
     return item_info, page_info
 
 
-def fetch_all_pages(is_slim_query=True):
+def fetch_all_pages(is_slim_query=True, geforce_url=None):
     data = []
 
     has_next_page = True
     cursor = ""
 
     while has_next_page:
-        item_info, page_info = fetch_page(cursor, is_slim_query=is_slim_query)
+        item_info, page_info = fetch_page(
+            cursor, is_slim_query=is_slim_query, geforce_url=geforce_url
+        )
 
         data += item_info
 
