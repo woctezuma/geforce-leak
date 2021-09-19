@@ -3,7 +3,7 @@ from src.fetch_utils import fetch_all_pages
 
 
 def main():
-    use_gfn_endpoint = False
+    use_gfn_endpoint = True
 
     data = fetch_all_pages(is_slim_query=False, use_original_endpoint=use_gfn_endpoint)
     save_to_disk(data, "data_slim.json", verbose=True)
