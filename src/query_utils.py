@@ -138,7 +138,9 @@ def get_full_query_content():
 
 def main():
     for is_slim_query in [False, True]:
-        query_input = get_query("", is_slim_query=is_slim_query)
+        query_input = get_query(
+            "", is_slim_query=is_slim_query, use_original_endpoint=False
+        )
         print(query_input)
 
     return
