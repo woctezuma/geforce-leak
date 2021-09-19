@@ -8,6 +8,7 @@ def get_geforce_url():
 
 
 def get_geforce_backup_url():
+    # Caveat: data available via this url has been downloaded by the leaker at an **earlier** and **unspecified** date!
     # Reference: https://twitter.com/JulyIghor/status/1438152383461269512
     return "http://gfn.uax.co/graphql"
 
