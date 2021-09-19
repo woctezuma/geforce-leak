@@ -15,12 +15,12 @@ def main():
 
     for chunk_no, app_ids in enumerate(chunked(all_app_ids, chunk_size), start=1):
         data = fetch_all_pages(
-            is_slim_query=False, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
+            is_slim_query=True, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
         )
         save_to_disk(data, f"data/backup_slim_{chunk_no}.json", verbose=True)
 
         data = fetch_all_pages(
-            is_slim_query=True, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
+            is_slim_query=False, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
         )
         save_to_disk(data, f"data/backup_full_{chunk_no}.json", verbose=True)
 
