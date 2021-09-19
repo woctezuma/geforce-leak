@@ -21,9 +21,8 @@ def get_geforce_backup_url():
     return "http://gfn.uax.co/graphql"
 
 
-def fetch_page(cursor="", is_slim_query=True, geforce_url=None):
-    if geforce_url is None:
-        geforce_url = get_geforce_url()
+def fetch_page(cursor="", is_slim_query=True, use_original_endpoint=True):
+    geforce_url = get_geforce_url(use_original_endpoint=use_original_endpoint)
 
     print(f"Cursor: {cursor}")
 
@@ -42,7 +41,7 @@ def fetch_page(cursor="", is_slim_query=True, geforce_url=None):
     return item_info, page_info
 
 
-def fetch_all_pages(is_slim_query=True, geforce_url=None):
+def fetch_all_pages(is_slim_query=True, use_original_endpoint=True):
     data = []
 
     has_next_page = True
@@ -50,7 +49,9 @@ def fetch_all_pages(is_slim_query=True, geforce_url=None):
 
     while has_next_page:
         item_info, page_info = fetch_page(
-            cursor, is_slim_query=is_slim_query, geforce_url=geforce_url
+            cursor,
+            is_slim_query=is_slim_query,
+            use_original_endpoint=use_original_endpoint,
         )
 
         data += item_info
