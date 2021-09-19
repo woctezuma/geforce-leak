@@ -22,13 +22,23 @@ def get_header_sep():
     return ", "
 
 
-def get_query_header(cursor, use_original_endpoint=True):
+def get_query_header(cursor, use_original_endpoint=True, app_ids=None):
+    if app_ids is None:
+        app_ids = []
+
+    if len(app_ids) > 0:
+        line_sep = "\n"
+        app_ids_stack = line_sep.join(f'"{id}"' for id in app_ids)
+        app_ids_str = f"appIds: [ {app_ids_stack} ]" + get_header_sep()
+    else:
+        app_ids_str = ""
+
     if use_original_endpoint:
         vpc_id = ""
     else:
         vpc_id = 'vpcId: "NP-SEA-01"' + get_header_sep()
 
-    query_header = f'apps({vpc_id}first: 1200, after: "{cursor}")'
+    query_header = f'apps({app_ids_str}{vpc_id}first: 1200, after: "{cursor}")'
     return query_header
 
 
