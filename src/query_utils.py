@@ -1,7 +1,9 @@
-def get_query(cursor, is_slim_query=True, use_original_endpoint=True):
+def get_query(cursor, is_slim_query=True, use_original_endpoint=True, app_ids=None):
     query_prefixe = "{"
 
-    query_header = get_query_header(cursor, use_original_endpoint=use_original_endpoint)
+    query_header = get_query_header(
+        cursor, use_original_endpoint=use_original_endpoint, app_ids=app_ids
+    )
 
     qery_metadata = """{
         numberReturned
