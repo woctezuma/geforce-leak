@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python download_geforce_data.py
 ```
 
-Alternatively, you can find the data in the ["Releases" section][github-releases] of this repository.
+Alternatively, you can find the data as `v0.1` in the ["Releases" section][github-releases] of this repository.
 
 - Run the following script to filter GeForce data by stores, e.g. "Epic Games Store" or "Steam":
 
@@ -40,6 +40,8 @@ python filter_geforce_data.py
 ```bash
 python query_geforce_backup.py
 ```
+
+Alternatively, you can find the data as `v0.2` in the ["Releases" section][github-releases] of this repository.
 
 ## Results
 
