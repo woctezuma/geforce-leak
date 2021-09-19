@@ -15,6 +15,7 @@ def main():
     # This is the largest number of appIDs which can be listed in a single query for the GraphQL end-points.
     chunk_size = 1200
 
+    # Download data by querying apps in chunks
     for chunk_no, app_ids in enumerate(chunked(all_app_ids, chunk_size), start=1):
         data = fetch_all_pages(
             is_slim_query=True, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
