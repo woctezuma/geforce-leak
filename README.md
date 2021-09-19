@@ -32,6 +32,13 @@ Alternatively, you can find the data in the ["Releases" section][github-releases
 python filter_geforce_data.py
 ```
 
+- Run the following script to query a [GeForce back-up hosted by the leaker][tweet-leaker-hosting-backup] for known
+  appIDs:
+
+```bash
+python query_geforce_backup.py
+```
+
 ## Results
 
 Here is a list of games which have an id on [the Epic Games Store][epic-store]:
@@ -66,3 +73,4 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
 [tweet-steamdb]: <https://twitter.com/thexpaw/status/1437362950885490692>
+[tweet-leaker-hosting-backup]: <https://twitter.com/JulyIghor/status/1438152383461269512>
