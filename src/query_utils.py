@@ -69,11 +69,14 @@ def get_full_query_content():
             FEATURE_IMAGE
             GAME_BOX_ART
             HERO_IMAGE
+            MARQUEE_HERO_IMAGE
+            ANSEL_360_IMAGES            
             KEY_ART
             KEY_ICON
             KEY_IMAGE
             TV_BANNER
             SCREENSHOTS
+            SCREENSHOT_THUMB
           }
           keywords
           maxLocalPlayers
