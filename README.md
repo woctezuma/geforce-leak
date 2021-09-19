@@ -2,6 +2,8 @@
 
 This repository contains Python code to fetch data from [the GeForce leak][medium-post].
 
+![Search results for Hollow][wiki-cover]
+
 ## Disclaimer
 
 - The leak has been plugged, so the code cannot fetch data anymore.
@@ -59,6 +61,8 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 - A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
 
 <!-- Definitions -->
+
+[wiki-cover]: <https://raw.githubusercontent.com/wiki/woctezuma/geforce-leak/img/cover.png>
 
 [github-releases]: <https://github.com/woctezuma/geforce-leak/releases>
 [github-issues]: <https://github.com/woctezuma/geforce-leak/issues>
