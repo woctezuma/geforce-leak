@@ -1,3 +1,5 @@
+import glob
+
 from more_itertools import chunked
 
 from src.disk_utils import save_to_disk, load_from_disk
@@ -23,6 +25,13 @@ def main():
             is_slim_query=False, use_original_endpoint=use_gfn_endpoint, app_ids=app_ids
         )
         save_to_disk(data, f"data/backup_full_{chunk_no}.json", verbose=True)
+
+    # Export to disk
+    for keyword in ["slim", "full"]:
+        data = list()
+        for fname in glob.glob(f"data/backup_{keyword}_*.json"):
+            data += load_from_disk(fname)
+        save_to_disk(data, f"backup_{keyword}.json", verbose=True)
 
     return
 
