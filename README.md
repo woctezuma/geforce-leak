@@ -62,6 +62,7 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 - A [Medium post by the original leaker][medium-post] revealing the method,
 - A [tweet by the original leaker][tweet-leaker], which advertises the blog post above,
 - A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
+- A [status webpage for GeForce Now][status-geforce-now], which lists ids of **regional** "Virtual Private Cloud" (`vpcId`). 
 
 <!-- Definitions -->
 
@@ -81,3 +82,4 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
 [tweet-steamdb]: <https://twitter.com/thexpaw/status/1437362950885490692>
 [tweet-leaker-hosting-backup]: <https://twitter.com/JulyIghor/status/1438152383461269512>
+[status-geforce-now]: <https://status.geforcenow.com/>
