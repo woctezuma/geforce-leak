@@ -7,7 +7,7 @@ This repository contains Python code to fetch data from [the GeForce leak][mediu
 ## Disclaimer
 
 - The leak has been plugged, so the code cannot fetch data directly from Nvidia anymore.
-- A partial data back-up is [being hosted][tweet-leaker-hosting-backup] by the leaker, so the code can fetch data from there.
+- GeForce data can still be **partially** accessed via [a user-interface hosted][tweet-leaker-hosting-backup] by the leaker.
 - If you want me to remove data from this project, please [create a Github issue][github-issues] to reach me.
 
 ## Requirements
@@ -35,7 +35,7 @@ Alternatively, you can find the data as `v0.1` in the ["Releases" section][githu
 python filter_geforce_data.py
 ```
 
-- Run the following script to query a [GeForce back-up hosted by the leaker][tweet-leaker-hosting-backup] for known
+- Run the following script to query **partial** GeForce data via [an interface hosted][tweet-leaker-hosting-backup] by the leaker for known
   appIDs:
 
 ```bash
