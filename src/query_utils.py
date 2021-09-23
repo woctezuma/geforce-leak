@@ -1,3 +1,10 @@
+def get_regional_vpc_id():
+    # Reference: https://status.geforcenow.com/
+    regional_vpc_id = "NP-SEA-01"
+
+    return regional_vpc_id
+
+
 def get_query(cursor, is_slim_query=True, use_original_endpoint=True, app_ids=None):
     query_prefixe = "{"
 
@@ -38,7 +45,8 @@ def get_query_header(cursor, use_original_endpoint=True, app_ids=None):
     if use_original_endpoint:
         vpc_id = ""
     else:
-        vpc_id = 'vpcId: "NP-SEA-01"' + get_header_sep()
+        regional_vpc_id = get_regional_vpc_id()
+        vpc_id = f'vpcId: "{regional_vpc_id}"' + get_header_sep()
 
     query_header = f'apps({app_ids_str}{vpc_id}first: 1200, after: "{cursor}")'
     return query_header
