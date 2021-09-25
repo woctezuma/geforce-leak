@@ -75,9 +75,9 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 [epic-store]: <https://www.epicgames.com/store/>
 [steam-store]: <https://store.steampowered.com/>
 
-[gist-epic]: <https://gist.github.com/woctezuma/64949a67eedfc96a063d3510d7b8d0bb>
-[gist-steam-1]: <https://gist.github.com/woctezuma/bd75692055c5d341d9989b9ec5396421>
-[gist-no-id]: <https://gist.github.com/woctezuma/2eac226652aaf86a482a62c6f54f41ed>
+[gist-epic]: <https://gist.github.com/woctezuma/3d8db1707bd3ce91ac094cf92e96c5c7>
+[gist-steam-1]: <https://gist.github.com/woctezuma/d9310914ecdd893bb91da19ee26cf074>
+[gist-no-id]: <https://gist.github.com/woctezuma/35babd95745bd5f2092b522a80e861fb>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
