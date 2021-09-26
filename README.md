@@ -47,7 +47,7 @@ Alternatively, you can find the data as `v0.2` in the ["Releases" section][githu
 
 ## Results
 
-Disclaimer: the results are purged from any entry about Ubisoft, to avoid [any possible DMCA issue][pcgamer-article-dmca].
+Disclaimer: the results are purged of any entry about Ubisoft, to avoid [any possible DMCA issue][pcgamer-article-dmca].
 
 Here is a list of games which have an id on [the Epic Games Store][epic-store]:
 - [the whole list][gist-epic]
