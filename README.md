@@ -47,6 +47,8 @@ Alternatively, you can find the data as `v0.2` in the ["Releases" section][githu
 
 ## Results
 
+Disclaimer: the results are purged from any entry about Ubisoft, to avoid [any possible DMCA issue][pcgamer-article-dmca].
+
 Here is a list of games which have an id on [the Epic Games Store][epic-store]:
 - [the whole list][gist-epic]
 
@@ -63,6 +65,7 @@ Here is a list of games which do *not* have any id on the aforementioned stores:
 - A [Medium post by the original leaker][medium-post] revealing the method,
 - A [tweet by the original leaker][tweet-leaker], which advertises the blog post above,
 - A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
+- A [PC Gamer article][pcgamer-article-dmca], which mentions the takedown request issued by Ubisoft.
 - A [status webpage for GeForce Now][status-geforce-now], which lists ids of **regional** "Virtual Private Cloud" (`vpcId`). 
 
 <!-- Definitions -->
@@ -83,4 +86,5 @@ Here is a list of games which do *not* have any id on the aforementioned stores:
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
 [tweet-steamdb]: <https://twitter.com/thexpaw/status/1437362950885490692>
 [tweet-leaker-hosting-backup]: <https://twitter.com/JulyIghor/status/1438152383461269512>
+[pcgamer-article-dmca]: <https://www.pcgamer.com/uk/ubisoft-issues-takedown-request-of-speculative-nvidia-database-leak/>
 [status-geforce-now]: <https://status.geforcenow.com/>
