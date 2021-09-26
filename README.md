@@ -53,10 +53,10 @@ Here is a list of games which have an id on [the Epic Games Store][epic-store]:
 Here is a list of games which have an id on [the Steam Store][steam-store]:
 - [the whole list][gist-steam-1], except for two entries which contain private information (email address, URL)
 
+NB: if an id is empty in the results linked above, then it appeared in the leak as "TBD" for "To Be Decided".
+
 Here is a list of games which do *not* have any id on the aforementioned stores:
 - [the whole list][gist-no-id]
-
-NB: if an id is empty in the results linked above, then it appeared in the leak as "TBD" for "To Be Decided".
 
 ## References
 
