@@ -60,6 +60,10 @@ NB: if an id is empty in the results linked above, then it appeared in the leak 
 Here is a list of games which do *not* have any id on the aforementioned stores:
 - [the whole list][gist-no-id]
 
+Here are summaries with a focus on documented releases dates:
+- [a short list][gist-release-date-with-id] with known ids,
+- [a short list][gist-release-date-without-id] with unknown ids.
+
 ## References
 
 - A [Medium post by the original leaker][medium-post] revealing the method,
@@ -81,6 +85,8 @@ Here is a list of games which do *not* have any id on the aforementioned stores:
 [gist-epic]: <https://gist.github.com/woctezuma/3d8db1707bd3ce91ac094cf92e96c5c7>
 [gist-steam-1]: <https://gist.github.com/woctezuma/d9310914ecdd893bb91da19ee26cf074>
 [gist-no-id]: <https://gist.github.com/woctezuma/35babd95745bd5f2092b522a80e861fb>
+[gist-release-date-with-id]: <https://gist.github.com/woctezuma/2933bca4dd4d26f318bace5ab82fc307>
+[gist-release-date-without-id]: <https://gist.github.com/woctezuma/57331417b7cf711434bdb2109e49873f>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
