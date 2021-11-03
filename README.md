@@ -84,7 +84,7 @@ Here is a summary with a focus on documented releases dates:
 [gist-epic]: <https://gist.github.com/woctezuma/3d8db1707bd3ce91ac094cf92e96c5c7>
 [gist-steam-1]: <https://gist.github.com/woctezuma/d9310914ecdd893bb91da19ee26cf074>
 [gist-no-id]: <https://gist.github.com/woctezuma/35babd95745bd5f2092b522a80e861fb>
-[gist-release-date]: <https://gist.github.com/woctezuma/a1252976913713390963b745fbc51e73>
+[gist-release-date]: <https://gist.github.com/woctezuma/b2746c95b90c6076e1803b816f364a9a>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
 [tweet-leaker]: <https://twitter.com/JulyIghor/status/1437188494984720387>
