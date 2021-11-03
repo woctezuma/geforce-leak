@@ -73,7 +73,7 @@ Here is a summary with a focus on documented releases dates:
 
 <!-- Definitions -->
 
-[wiki-cover]: <https://raw.githubusercontent.com/wiki/woctezuma/geforce-leak/img/cover.png>
+[wiki-cover]: <img/cover.png>
 
 [github-releases]: <https://github.com/woctezuma/geforce-leak/releases>
 [github-issues]: <https://github.com/woctezuma/geforce-leak/issues>
