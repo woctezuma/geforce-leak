@@ -81,9 +81,9 @@ Here is a summary with a focus on documented releases dates:
 [epic-store]: <https://www.epicgames.com/store/>
 [steam-store]: <https://store.steampowered.com/>
 
-[gist-epic]: <https://gist.github.com/woctezuma/3d8db1707bd3ce91ac094cf92e96c5c7>
-[gist-steam-1]: <https://gist.github.com/woctezuma/d9310914ecdd893bb91da19ee26cf074>
-[gist-no-id]: <https://gist.github.com/woctezuma/35babd95745bd5f2092b522a80e861fb>
+[gist-epic]: <https://gist.github.com/woctezuma/9777501ed716008aa72542042a04f0e5>
+[gist-steam-1]: <https://gist.github.com/woctezuma/c54c1af9287548ad4992a9fae34811c3>
+[gist-no-id]: <https://gist.github.com/woctezuma/47376ccd6060ad6e850f24478e25c6fa>
 [gist-release-date]: <https://gist.github.com/woctezuma/b2746c95b90c6076e1803b816f364a9a>
 
 [medium-post]: <https://medium.com/@ighor/i-unlocked-nvidia-geforce-now-and-stumbled-upon-pirates-dc48a3f8ff7>
