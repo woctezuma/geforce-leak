@@ -74,7 +74,7 @@ Here is a summary with a focus on documented releases dates:
   - in Youtube videos: [Silksong][youtube-silksong] (recommended), [Five Nights][youtube-fnaf],
   - on social media: [Reddit][reddit-coverage], [Twitter][twitter-coverage], [Five Nights on Twitter][twitter-fnaf],
   - on forums: [ResetEra][resetera-coverage], [NeoGAF][neogaf-coverage],
-  - in the press: [ScreenRant][screenrant-coverage], etc.
+  - in the press: [ScreenRant][screenrant-coverage], [MGG Millenium][millenium-coverage] (in French), etc.
 - A [PC Gamer article][pcgamer-article-recap], which recaps the situation after two months.
 
 <!-- Definitions -->
@@ -108,3 +108,4 @@ Here is a summary with a focus on documented releases dates:
 [resetera-coverage]: <https://www.resetera.com/threads/list-of-geforce-games-which-have-a-future-release-dates-has-been-reportedly-leaked.509517/>
 [neogaf-coverage]: <https://www.neogaf.com/threads/hundreds-of-games-release-dates-may-have-been-leaked-again-on-nvidia.1622813/>
 [screenrant-coverage]: <https://screenrant.com/elder-scrolls-6-hogwarts-legacy-release-date-leak/>
+[millenium-coverage]: <https://www.millenium.org/news/383744.html>
