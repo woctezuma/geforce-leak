@@ -70,6 +70,12 @@ Here is a summary with a focus on documented releases dates:
 - A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
 - A [PC Gamer article][pcgamer-article-dmca], which mentions the takedown request issued by Ubisoft.
 - A [status webpage for GeForce Now][status-geforce-now], which lists ids of **regional** "Virtual Private Cloud" (`vpcId`). 
+- Coverage regarding the leaked release dates:
+  - in Youtube videos: [Silksong][youtube-silksong] (recommended), [Five Nights][youtube-fnaf]
+  - on social media: [Reddit][reddit-coverage], [Twitter][twitter-coverage], [Five Nights on Twitter][twitter-fnaf],
+  - on forums: [ResetEra][resetera-coverage], [NeoGAF][neogaf-coverage],
+  - in the press: [ScreenRant][screenrant-coverage], etc.
+- A [PC Gamer article][pcgamer-article-recap], which recaps the situation after two months,
 
 <!-- Definitions -->
 
@@ -92,3 +98,13 @@ Here is a summary with a focus on documented releases dates:
 [tweet-leaker-hosting-backup]: <https://twitter.com/JulyIghor/status/1438152383461269512>
 [pcgamer-article-dmca]: <https://www.pcgamer.com/uk/ubisoft-issues-takedown-request-of-speculative-nvidia-database-leak/>
 [status-geforce-now]: <https://status.geforcenow.com/>
+
+[pcgamer-article-recap]: <https://www.pcgamer.com/nvidia-leaked-games-list-pc/>
+[youtube-silksong]: <https://youtu.be/X83L4ogQQlg>
+[youtube-fnaf]: <https://youtu.be/OeMkQo32RvE>
+[twitter-fnaf]: <https://twitter.com/SteelWoolStudio/status/1441868911134138371>
+[reddit-coverage]: <https://www.reddit.com/r/GamingLeaksAndRumours/comments/qlyll6/hundreds_of_gamess_release_dates_may_have_been/>
+[twitter-coverage]: <https://twitter.com/Okami13_/status/1455977734585425922>
+[resetera-coverage]: <https://www.resetera.com/threads/list-of-geforce-games-which-have-a-future-release-dates-has-been-reportedly-leaked.509517/>
+[neogaf-coverage]: <https://www.neogaf.com/threads/hundreds-of-games-release-dates-may-have-been-leaked-again-on-nvidia.1622813/>
+[screenrant-coverage]: <https://screenrant.com/elder-scrolls-6-hogwarts-legacy-release-date-leak/>
