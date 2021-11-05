@@ -67,15 +67,15 @@ Here is a summary with a focus on documented releases dates:
 
 - A [Medium post by the original leaker][medium-post] revealing the method,
 - A [tweet by the original leaker][tweet-leaker], which advertises the blog post above,
-- A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information.
-- A [PC Gamer article][pcgamer-article-dmca], which mentions the takedown request issued by Ubisoft.
-- A [status webpage for GeForce Now][status-geforce-now], which lists ids of **regional** "Virtual Private Cloud" (`vpcId`). 
+- A [tweet by the creator of SteamDB][tweet-steamdb], which helps spread the information,
+- A [PC Gamer article][pcgamer-article-dmca], which mentions the takedown request issued by Ubisoft,
+- A [status webpage for GeForce Now][status-geforce-now], which lists ids of **regional** "Virtual Private Cloud" (`vpcId`),
 - Coverage regarding the leaked release dates:
-  - in Youtube videos: [Silksong][youtube-silksong] (recommended), [Five Nights][youtube-fnaf]
+  - in Youtube videos: [Silksong][youtube-silksong] (recommended), [Five Nights][youtube-fnaf],
   - on social media: [Reddit][reddit-coverage], [Twitter][twitter-coverage], [Five Nights on Twitter][twitter-fnaf],
   - on forums: [ResetEra][resetera-coverage], [NeoGAF][neogaf-coverage],
   - in the press: [ScreenRant][screenrant-coverage], etc.
-- A [PC Gamer article][pcgamer-article-recap], which recaps the situation after two months,
+- A [PC Gamer article][pcgamer-article-recap], which recaps the situation after two months.
 
 <!-- Definitions -->
 
